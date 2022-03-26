@@ -1,18 +1,18 @@
 import React from "react";
 import { IdentificationIcon } from "@heroicons/react/solid";
 
-const PythonLogo = require("../assets/logos/PythonLogo.png");
 const ReactLogo = require("../assets/logos/ReactLogo.png");
-const TypescriptLogo = require("../assets/logos/TypescriptLogo.png");
 const JsLogo = require("../assets/logos/JsLogo.png");
-const NextLogo = require("../assets/logos/NextLogo.png");
+const CSharpLogo = require("../assets/logos/CSharpLogo.png");
 const TailwindLogo = require("../assets/logos/TailwindLogo.png");
-const SqlLogo = require("../assets/logos/SqlLogo.png");
-const ReduxLogo = require("../assets/logos/ReduxLogo.png");
-const FirebaseLogo = require("../assets/logos/FirebaseLogo.png");
 const MongoDBLogo = require("../assets/logos/MongoDBLogo.png");
 const NodeJSLogo = require("../assets/logos/NodeJSLogo.png");
-const DockerLogo = require("../assets/logos/DockerLogo.png");
+const ExpressJsLogo = require("../assets/logos/ExpressJsLogo.png")
+const CPlusLogo = require("../assets/logos/CPlusLogo.png")
+const HTML5Logo = require("../assets/logos/HTML5Logo.png")
+const GitVCLogo = require("../assets/logos/GitVCLogo.png")
+const CSS3Logo = require("../assets/logos/CSS3Logo.png")
+const BootstrapLogo = require("../assets/logos/BootstrapLogo.png")
 
 const About = () => {
   return (
@@ -30,18 +30,47 @@ const About = () => {
         </div>
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros
-            non nisi vulputate eleifend. Vestibulum erat ipsum, lacinia ut nibh
-            ut, pulvinar interdum lorem. Aliquam et nisi eu risus ultrices
-            suscipit nec nec quam. Suspendisse pretium fermentum luctus.
-            Maecenas vitae vestibulum ipsum, ut varius diam. Phasellus mattis
-            nunc vel purus maximus, sit amet congue ligula tincidunt. Nulla
-            tristique luctus lacinia. Nullam ut tortor arcu.
+          Komsakorn used to work as an air traffic controller but chose to switch career paths
+                        , Now looking for a full-time job in the gaming and coding field. 
+                        So he will be able to apply the knowledge and skills he has in his works for continuous 
+                        improvement.
           </code>
           <br />
           <br />
-          <code>Aenean in mi non leo placerat suscipit a eget odio:</code>
+          <code>Notable Coding Skills:</code>
           <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
+          <div className="flex flex-row  mb-3">
+              <img
+                src={HTML5Logo}
+                alt="HTML5 Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>HTML5</code>
+            </div>
+            <div className="flex flex-row  mb-3">
+              <img
+                src={CSS3Logo}
+                alt="CSS3 Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>CSS3</code>
+            </div>
+            <div className="flex flex-row  mb-3">
+              <img
+                src={TailwindLogo}
+                alt="Tailwind Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>Tailwind CSS</code>
+            </div>
+            <div className="flex flex-row  mb-3">
+              <img
+                src={BootstrapLogo}
+                alt="Bootstrap Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>Bootstrap</code>
+            </div>
             <div className="flex flex-row  mb-3">
               <img
                 src={JsLogo}
@@ -52,11 +81,11 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={NextLogo}
-                alt="Next Logo"
+                src={ExpressJsLogo}
+                alt="ExpressJs Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Next.js</code>
+              <code>Express.js</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
@@ -68,46 +97,6 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={TypescriptLogo}
-                alt="Typescript Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>TypeScript</code>
-            </div>
-            <div className="flex flex-row  mb-3">
-              <img
-                src={TailwindLogo}
-                alt="Tailwind Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Tailwind CSS</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={ReduxLogo}
-                alt="Redux Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Redux</code>
-            </div>
-            <div className="flex flex-row  mb-3">
-              <img
-                src={PythonLogo}
-                alt="Python Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Python</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={FirebaseLogo}
-                alt="Firebase Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Firebase</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
                 src={NodeJSLogo}
                 alt="NodeJS Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
@@ -116,27 +105,35 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={SqlLogo}
-                alt="SQL Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>SQL</code>
-            </div>
-            <div className="flex flex-row mb-3">
-              <img
                 src={MongoDBLogo}
                 alt="MongoDB Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>MongoDB</code>
-            </div>
-            <div className="flex flex-row mb-3">
+              </div>
+            <div className="flex flex-row  mb-3">
               <img
-                src={DockerLogo}
-                alt="MongoDB Logo"
+                src={CSharpLogo}
+                alt="C# Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Docker</code>
+              <code>C#</code>
+            </div>
+            <div className="flex flex-row  mb-3">
+              <img
+                src={CPlusLogo}
+                alt="C++ Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>C++</code>
+            </div>
+            <div className="flex flex-row  mb-3">
+              <img
+                src={GitVCLogo}
+                alt="Git Version Control Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>Git Version Control</code>
             </div>
           </div>
         </div>
