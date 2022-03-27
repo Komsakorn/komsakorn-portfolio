@@ -1,7 +1,7 @@
 {
-  "name": "lymphocyte",
+  "name": "kizou",
   "version": "0.1.0",
-  "homepage": "https://komsakorn.github.io/komsakorn-portfolio/",
+  "homepage": "http://kizou.org",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.5.0",
@@ -10,7 +10,6 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.1.1",
@@ -21,9 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
