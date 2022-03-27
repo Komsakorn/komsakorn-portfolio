@@ -37,7 +37,7 @@ const About = () => {
           </code>
           <br />
           <br />
-          <code>Notable Coding Skills:</code>
+          <code>Coding Skills:</code>
           <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
           <div className="flex flex-row  mb-3">
               <img

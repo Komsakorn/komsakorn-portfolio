@@ -3,11 +3,12 @@ import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
 
 const GitLogo = require("../assets/logos/GitLogo.png");
 const LinkedinLogo = require("../assets/logos/LinkedinLogo.png");
-const KaggleLogo = require("../assets/logos/KaggleLogo.png");
+const FacebookLogo = require("../assets/logos/FacebookLogo.webp");
 const MailLogo = require("../assets/logos/MailLogo.png");
 
 const JSIcon = require("../assets/icons/JSIcon.png");
-const TSIcon = require("../assets/icons/TSIcon.png");
+const ReactIcon = require("../assets/logos/ReactLogo.png")
+const LUAIcon = require("../assets/icons/LUAIcon.png")
 
 const LeftBar = () => {
   const [showWebList, SetShowWebList] = useState(true);
@@ -15,44 +16,44 @@ const LeftBar = () => {
 
   const WebList = () => (
     <div>
-      <a href="/">
+      <a href="https://spotipie-lymphocyte.surge.sh">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <img
             src={JSIcon}
             alt="JS Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>First Project</p>
+          <p>Spotipie</p>
         </div>
       </a>
-      <a href="/">
+      <a href="https://github.com/Komsakorn/New-iTrack">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <img
-            src={TSIcon}
-            alt="TS Icon"
+            src={ReactIcon}
+            alt="React Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>Second Project</p>
+          <p>iTRACK</p>
         </div>
       </a>
-      <a href="/">
+      <a href="https://komsakorn.github.io/js-2048">
         <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] focus:bg-slate-300 ml-12 w-60">
           <img
             src={JSIcon}
             alt="JS Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>Third Project</p>
+          <p>2048 Game</p>
         </div>
       </a>
-      <a href="/">
+      <a href="https://modworkshop.net/user/60950">
         <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
           <img
-            src={JSIcon}
-            alt="JS Icon"
+            src={LUAIcon}
+            alt="LUA Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>Fourth Project</p>
+          <p>PAYDAY 2 Music Mod</p>
         </div>
       </a>
     </div>
@@ -84,35 +85,35 @@ const LeftBar = () => {
                 <ChevronRightIcon className="w-7 mr-1  ml-5" />
               )}
 
-              <p>Web</p>
+              <p>Projects Webpage</p>
             </div>
             {showWebList ? <WebList /> : null}
           </>
         ) : null}
         <div className="absolute inset-x-0 bottom-10 ">
           <div className="flex px-6 space-x-7">
-            <a href="/">
+            <a href="https://github.com/komsakorn">
               <img
                 src={GitLogo}
                 alt="Git Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            <a href="https://www.facebook.com/komsakorn.jiarawish">
               <img
-                src={KaggleLogo}
-                alt="Kaggle Logo"
+                src={FacebookLogo}
+                alt="Facebook Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            <a href="https://www.linkedin.com/in/komsakorn-j/">
               <img
                 src={LinkedinLogo}
                 alt="Linkedin Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            <a href="mailto:komsakorn.j@hotmail.com" title="komsakorn.j@hotmail.com">
               <img
                 src={MailLogo}
                 alt="Mail Logo"

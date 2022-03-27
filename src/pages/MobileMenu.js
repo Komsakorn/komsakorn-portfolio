@@ -9,13 +9,14 @@ import {
 import { Disclosure, Transition } from "@headlessui/react";
 
 const JSIcon = require("../assets/icons/JSIcon.png");
-const TSIcon = require("../assets/icons/TSIcon.png");
+const ReactIcon = require("../assets/logos/ReactLogo.png")
+const LUAIcon = require("../assets/icons/LUAIcon.png")
 
 const MobileMenu = () => {
   const projects = [
     {
-      name: "First Project",
-      href: "#",
+      name: "Spotipie",
+      href: "https://spotipie-lymphocyte.surge.sh",
       icon: <img
       src={JSIcon}
       alt="JS Icon"
@@ -24,18 +25,18 @@ const MobileMenu = () => {
       current: true,
     },
     {
-      name: "Second Project",
-      href: "#",
+      name: "iTRACK",
+      href: "https://github.com/Komsakorn/New-iTrack",
       icon:  <img
-      src={TSIcon}
-      alt="TS Icon"
+      src={ReactIcon}
+      alt="React Icon"
       className="w-7 mr-1  ml-5 text-yellow_vs"
     />,
       current: false,
     },
     {
-      name: "Third Project",
-      href: "#",
+      name: "2048 Game",
+      href: "https://komsakorn.github.io/js-2048",
       icon: <img
       src={JSIcon}
       alt="JS Icon"
@@ -44,11 +45,11 @@ const MobileMenu = () => {
       current: false,
     },
     {
-      name: "Fourth Project",
-      href: "#",
+      name: "PAYDAY 2 Music Mod",
+      href: "https://modworkshop.net/user/60950",
       icon: <img
-      src={JSIcon}
-      alt="JS Icon"
+      src={LUAIcon}
+      alt="LUA Icon "
       className="w-7 mr-1  ml-5 text-yellow_vs"
     />,
       current: false,

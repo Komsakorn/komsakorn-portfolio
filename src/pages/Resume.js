@@ -22,14 +22,29 @@ const Resume = () => {
             <code className="text-yellow_vs">Education</code>
           </div>
           <div className="w-3/4">
-            <code className="text-blue_vs">Lorem Ipsum</code>
+            <code className="text-blue_vs">Ramkhamhaeng University</code>
             <br />
             <code className="italic text-sm text-lightblue_vs">
-              Masters in Information technology
+            Bachelor's degree, Faculty of Humanities, Majored in English.
             </code>
             <br />
             <code className="text-xs text-brown_vs">
-              • Sept 2014 - July 2017
+              • 2018-2022
+            </code>
+          </div>
+        </div>
+        <div className="flex flex-row">
+          <div className="w-1/4">
+          </div>
+          <div className="w-3/4">
+            <code className="text-blue_vs">Civil Aviation Training Center</code>
+            <br />
+            <code className="italic text-sm text-lightblue_vs">
+            Bachelor's degree, Aviation Management, Majored in Air Traffic Management.
+            </code>
+            <br />
+            <code className="text-xs text-brown_vs">
+              • 2017-2020
             </code>
           </div>
         </div>
@@ -38,22 +53,22 @@ const Resume = () => {
             <code className="text-yellow_vs">Work</code>
           </div>
           <div className="w-3/4">
-            <code className="text-blue_vs">Lorem Ipsum</code>
+            <code className="text-blue_vs">Air Traffic Controller Internship</code>
             <br />
             <code className="italic text-sm text-lightblue_vs">
-              Lorem - Paris, France{" "}
+            Kamphaengsaen Flying Training School{" "}
             </code>
             <br />
-            <code className="text-xs text-brown_vs">• July 2017 - Present</code>
+            <code className="text-xs text-brown_vs">• Oct 2020 - Jan 2021 </code>
             <br />
             <code className="text-sm">
-              <br />• Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              <br />• Sed id eros non nisi vulputate eleifend. Vestibulum erat
-              ipsum, lacinia ut nibh ut, pulvinar interdum lorem.
-              <br />• Aliquam et nisi eu risus ultrices suscipit nec nec quam.
-              <br />• Suspendisse pretium fermentum luctus.
-              <br />• Maecenas vitae vestibulum ipsum, ut varius diam.
-              <br />• Phasellus mattis nunc vel purus maximus.
+              <br />• Provided separation between aircraft by communicating with pilots on VHF Radio.
+              <br />• Co-ordinated with other units when the information is required or need to be transmitted by telephone and handheld radio.
+              <br />• Gave Aircraft instruction and ATC Clearance.
+              <br />•	Inspected runway and taxiway to prevent a FOD.
+              <br />• Used Radar to observe and monitor the aircraft within the responsible areas including danger areas to prevent an accident.
+              <br />• Accepted and Re-check the flight plan from the pilot before submit to the Flight Data Management Centre.
+              <br />• Using a computer to record the NOTAM and Flight statistic.
             </code>
           </div>
         </div>
@@ -63,17 +78,15 @@ const Resume = () => {
           </div>
           <div className="w-3/4">
             <code className="text-sm">
-              <br />• Nulla tristique luctus lacinia. Nullam ut tortor arcu.
-              <br />• Aenean in mi non leo placerat suscipit a eget odio.
-              <br />• Vivamus et dolor odio.
-              <br />• Suspendisse tempus interdum eros, et bibendum massa tempus
-              vitae.
-              <br />• Sed in aliquam ligula. Sed eget orci tortor.
-              <br />• Pellentesque laoreet laoreet justo, sed efficitur sapien
-              tincidunt eu.
-              <br />• Nulla tempor nunc eu molestie volutpat. Nunc a accumsan
-              dolor.
-              <br />• Duis ut congue dui.
+              <br />• Interpersonal Skills.
+              <br />(Growth Mindset, Persistance,
+                Personal Responsibility, Proactiveness, Teamwork)
+              <br />• Media Skills
+              <br />(VEGAS, Photoshop, Audacity)
+              <br />• Animation Skills
+              <br />(Blender, SFM)
+              <br />• Others
+              <br />(Scratch, RPG Maker, Unity, Unreal Engine, Microsoft Office) 
             </code>
           </div>
         </div>
