@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ae6b4c5.css",
-    "main.js": "/static/js/main.332da89a.js",
-    "static/js/787.e186245b.chunk.js": "/static/js/787.e186245b.chunk.js",
-    "static/media/MongoDBLogo.png": "/static/media/MongoDBLogo.1df44ece8cf851cecf69.png",
-    "static/media/CSharpLogo.png": "/static/media/CSharpLogo.4dedd795868b6766a81c.png",
-    "static/media/NodeJSLogo.png": "/static/media/NodeJSLogo.aabc0115471d1e8b2d6e.png",
-    "static/media/ReactLogo.png": "/static/media/ReactLogo.37940586dd863909ffca.png",
-    "static/media/TailwindLogo.png": "/static/media/TailwindLogo.36b2728bf0d14b7b7576.png",
-    "static/media/LUAIcon.png": "/static/media/LUAIcon.6a6c4bd30f46dbbe16e1.png",
-    "static/media/CSS3Logo.png": "/static/media/CSS3Logo.4e67641bb68b658d9b2b.png",
-    "static/media/HTML5Logo.png": "/static/media/HTML5Logo.b7d94634abe3d55dc16f.png",
-    "static/media/FacebookLogo.webp": "/static/media/FacebookLogo.6327c4437b545ad6980e.webp",
-    "static/media/ExpressJsLogo.png": "/static/media/ExpressJsLogo.39a0f4c3d981885c64f8.png",
-    "static/media/CPlusLogo.png": "/static/media/CPlusLogo.c0a0d2fd9fd3519dbdce.png",
-    "static/media/BootstrapLogo.png": "/static/media/BootstrapLogo.268c4375260420e8d982.png",
-    "static/media/JsLogo.png": "/static/media/JsLogo.db393457bf6303d846d6.png",
-    "index.html": "/index.html",
-    "main.5ae6b4c5.css.map": "/static/css/main.5ae6b4c5.css.map",
-    "main.332da89a.js.map": "/static/js/main.332da89a.js.map",
-    "787.e186245b.chunk.js.map": "/static/js/787.e186245b.chunk.js.map"
+    "main.css": "./static/css/main.5ae6b4c5.css",
+    "main.js": "./static/js/main.9569e6dc.js",
+    "static/js/787.7e9773af.chunk.js": "./static/js/787.7e9773af.chunk.js",
+    "static/media/MongoDBLogo.png": "./static/media/MongoDBLogo.1df44ece8cf851cecf69.png",
+    "static/media/CSharpLogo.png": "./static/media/CSharpLogo.4dedd795868b6766a81c.png",
+    "static/media/NodeJSLogo.png": "./static/media/NodeJSLogo.aabc0115471d1e8b2d6e.png",
+    "static/media/ReactLogo.png": "./static/media/ReactLogo.37940586dd863909ffca.png",
+    "static/media/TailwindLogo.png": "./static/media/TailwindLogo.36b2728bf0d14b7b7576.png",
+    "static/media/LUAIcon.png": "./static/media/LUAIcon.6a6c4bd30f46dbbe16e1.png",
+    "static/media/CSS3Logo.png": "./static/media/CSS3Logo.4e67641bb68b658d9b2b.png",
+    "static/media/HTML5Logo.png": "./static/media/HTML5Logo.b7d94634abe3d55dc16f.png",
+    "static/media/FacebookLogo.webp": "./static/media/FacebookLogo.6327c4437b545ad6980e.webp",
+    "static/media/ExpressJsLogo.png": "./static/media/ExpressJsLogo.39a0f4c3d981885c64f8.png",
+    "static/media/CPlusLogo.png": "./static/media/CPlusLogo.c0a0d2fd9fd3519dbdce.png",
+    "static/media/BootstrapLogo.png": "./static/media/BootstrapLogo.268c4375260420e8d982.png",
+    "static/media/JsLogo.png": "./static/media/JsLogo.db393457bf6303d846d6.png",
+    "index.html": "./index.html",
+    "main.5ae6b4c5.css.map": "./static/css/main.5ae6b4c5.css.map",
+    "main.9569e6dc.js.map": "./static/js/main.9569e6dc.js.map",
+    "787.7e9773af.chunk.js.map": "./static/js/787.7e9773af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ae6b4c5.css",
-    "static/js/main.332da89a.js"
+    "static/js/main.9569e6dc.js"
   ]
 }
