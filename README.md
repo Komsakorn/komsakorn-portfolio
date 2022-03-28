@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Komsakorn Jiarawish</h1>
 <h3 align="center">A passionate software developer from Thailand</h3>
 
-- 👨‍💻 All of my projects are available at [https://komsakorn-portfolio.netlify.app//](https://komsakorn.github.io/komsakorn-portfolio/)
+- 👨‍💻 All of my projects are available at [https://komsakorn-portfolio.netlify.app/](https://komsakorn.github.io/komsakorn-portfolio/)
 
 - 📫 How to reach me **komsakorn.j@hotmail.com**
 
