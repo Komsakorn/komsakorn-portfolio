@@ -3,7 +3,7 @@ import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
 
 const GitLogo = require("../assets/logos/GitLogo.png");
 const LinkedinLogo = require("../assets/logos/LinkedinLogo.png");
-const FacebookLogo = require("../assets/logos/FacebookLogo.webp");
+const FacebookLogo = require("../assets/logos/FacebookLogo.png");
 const MailLogo = require("../assets/logos/MailLogo.png");
 
 const JSIcon = require("../assets/icons/JSIcon.png");

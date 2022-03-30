@@ -20,7 +20,7 @@ const Contact = () => {
         </code>
         <button className=" border border-lightblue_vs text-lightblue_vs mt-10 p-3 rounded hover:bg-opacity-10 hover:bg-lightblue_vs w-1/2">
           <a href="mailto:komsakorn.j@hotmail.com">
-            <code>Contact</code>
+            <code>Contact me</code>
           </a>
         </button>
       </div>
