@@ -19,8 +19,8 @@ const Project = () => {
         <div className="table-cell border-b border-b-[#e6f1ff] border-opacity-25 w-full"></div>
       </div>
       <div className="flex flex-row mx-12 lg:mx-60 lg:w-3/5 mt-6">
-      <div><img src={Spotipie1}alt="Spotipie picture 1" className="w-4/5 mt-5" /></div>
-      <div><img src={Spotipie2}alt="Spotipie picture 2" className="w-5/5 mt-5" /></div>
+      <div><img src={Spotipie1}alt="Spotipie screenshot 1" className="w-4/5 mt-5" /></div>
+      <div><img src={Spotipie2}alt="Spotipie screenshot 2" className="w-5/5 mt-5" /></div>
       </div>
       <div className="text-[#a2aabc] mt-5 mb-16 mx-12 lg:mx-60 flex flex-row items-center text-justify">
         <div className="flex flex-col">
@@ -31,8 +31,8 @@ const Project = () => {
         </div>
       </div>
       <div className="flex flex-row mx-12 lg:mx-60 lg:w-3/5">
-      <div><img src={iTRACK1}alt="iTRACK1 picture 1" className="w-4/5 mt-5" /></div>
-      <div><img src={iTRACK2}alt="iTRACK1 picture 2" className="w-4/5 mt-5" /></div>
+      <div><img src={iTRACK1}alt="iTRACK screenshot 1" className="w-4/5 mt-5" /></div>
+      <div><img src={iTRACK2}alt="iTRACK screenshot 2" className="w-4/5 mt-5" /></div>
       </div>
       <div className="text-[#a2aabc] mt-5 mb-16 mx-12 lg:mx-60 flex flex-row items-center text-justify">
         <div className="flex flex-col">
@@ -45,7 +45,7 @@ const Project = () => {
         </div>
       </div>
       <div className="flex flex-row mx-12 lg:mx-60 lg:w-3/5">
-      <div><img src={JS_2048}alt="iTRACK1 picture 1" className="w-3/5 mt-5" /></div>
+      <div><img src={JS_2048}alt="2048 screenshot" className="w-3/5 mt-5" /></div>
       </div>
       <div className="text-[#a2aabc] mt-5 mb-16 mx-12 lg:mx-60 flex flex-row items-center text-justify">
         <div className="flex flex-col">
@@ -56,8 +56,8 @@ const Project = () => {
         </div>
       </div>
       <div className="flex flex-row mx-12 lg:mx-60 lg:w-3/5">
-      <div><img src={PAYDAY2_1}alt="iTRACK1 picture 1" className="w-4/5 mt-5" /></div>
-      <div><img src={PAYDAY2_2}alt="iTRACK1 picture 2" className="w-5/5 mt-5" /></div>
+      <div><img src={PAYDAY2_1}alt="Payday2 mod screenshot 1" className="w-4/5 mt-5" /></div>
+      <div><img src={PAYDAY2_2}alt="Payday2 mod screenshot 2" className="w-5/5 mt-5" /></div>
       </div>
       <div className="text-[#a2aabc] mt-5 mx-12 lg:mx-60 flex flex-row items-center text-justify">
         <div className="flex flex-col">
