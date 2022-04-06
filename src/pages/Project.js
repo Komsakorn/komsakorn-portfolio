@@ -8,7 +8,6 @@ const iTRACK2 = require("../assets/project-pic/itrack2.png");
 const JS_2048 = require("../assets/project-pic/2048.png");
 const PAYDAY2_1 = require("../assets/project-pic/payday2-1.png");
 const PAYDAY2_2 = require("../assets/project-pic/payday2-2.png");
-
 const Project = () => {
   return (
     <div id="Project" className="mt-36">
@@ -23,7 +22,7 @@ const Project = () => {
       <div><img src={Spotipie1}alt="Spotipie picture 1" className="w-4/5 mt-5" /></div>
       <div><img src={Spotipie2}alt="Spotipie picture 2" className="w-5/5 mt-5" /></div>
       </div>
-      <div className="text-[#a2aabc] mt-5 mx-12 lg:mx-60 flex flex-row items-center text-justify">
+      <div className="text-[#a2aabc] mt-5 mb-16 mx-12 lg:mx-60 flex flex-row items-center text-justify">
         <div className="flex flex-col">
             <code className="text-blue_vs mb-5 text-lg">• Spotipie</code>
             <code>
@@ -33,9 +32,9 @@ const Project = () => {
       </div>
       <div className="flex flex-row mx-12 lg:mx-60 lg:w-3/5">
       <div><img src={iTRACK1}alt="iTRACK1 picture 1" className="w-4/5 mt-5" /></div>
-      <div><img src={iTRACK2}alt="iTRACK1 picture 2" className="w-5/5 mt-5" /></div>
+      <div><img src={iTRACK2}alt="iTRACK1 picture 2" className="w-4/5 mt-5" /></div>
       </div>
-      <div className="text-[#a2aabc] mt-5 mx-12 lg:mx-60 flex flex-row items-center text-justify">
+      <div className="text-[#a2aabc] mt-5 mb-16 mx-12 lg:mx-60 flex flex-row items-center text-justify">
         <div className="flex flex-col">
             <code className="text-blue_vs mb-5 text-lg">• iTRACK (Work In Progress)</code>
             <code>
@@ -48,7 +47,7 @@ const Project = () => {
       <div className="flex flex-row mx-12 lg:mx-60 lg:w-3/5">
       <div><img src={JS_2048}alt="iTRACK1 picture 1" className="w-3/5 mt-5" /></div>
       </div>
-      <div className="text-[#a2aabc] mt-5 mx-12 lg:mx-60 flex flex-row items-center text-justify">
+      <div className="text-[#a2aabc] mt-5 mb-16 mx-12 lg:mx-60 flex flex-row items-center text-justify">
         <div className="flex flex-col">
             <code className="text-blue_vs mb-5 text-lg">• JS-2048</code>
             <code>
@@ -65,7 +64,7 @@ const Project = () => {
             <code className="text-blue_vs mb-5 text-lg">• PAYDAY 2 Custom Music Mod</code>
             <code>
             A modification of a famous game "PAYDAY 2" by Overkill Studio, This mod will allow you to add any music you like to the game as long as it fitted the game property, 
-            it also can control the fade-in / fade-out effect of your music
+            it also can control the fade-in / fade-out effect of your music. Used LuaScript to hook to the game.
             </code>
         </div>
       </div>
