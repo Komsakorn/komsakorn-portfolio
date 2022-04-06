@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import About from "./About";
 import Contact from "./Contact";
+import Project from "./Project";
 import LeftBar from "./LeftBar";
 import Resume from "./Resume";
 import MobileMenu from "./MobileMenu";
@@ -11,6 +12,7 @@ const Home = () => {
   const [home, setHome] = useState(true);
   const [onlyAbout, setOnlyAbout] = useState(false);
   const [onlyResume, setOnlyResume] = useState(false);
+  const [onlyProject, setOnlyProject] = useState(false);
   const [onlyContact, setOnlyContact] = useState(false);
 
   return (
@@ -22,11 +24,12 @@ const Home = () => {
         <div className="lg:hidden">
           <MobileMenu />
         </div>
-        <div className="bg-[#424042] h-16 w-full fixed hidden lg:block">
+        <div className="bg-[#424042] h-10 w-full fixed hidden lg:block">
           <NavBar
             setHome={setHome}
             setOnlyAbout={setOnlyAbout}
             setOnlyResume={setOnlyResume}
+            setOnlyProject={setOnlyProject}
             setOnlyContact={setOnlyContact}
           />
         </div>
@@ -35,12 +38,15 @@ const Home = () => {
             <Header id="Header" />
             <About id="About" />
             <Resume id="Resume" />
+            <Project id="Project" />
             <Contact id="Contact" />{" "}
           </>
         ) : onlyAbout ? (
           <About id="About" />
         ) : onlyResume ? (
           <Resume id="Resume" />
+        ) : onlyProject ? (
+          <Project id="Project" />
         ) : onlyContact ? (
           <Contact id="Contact" />
         ) : null}

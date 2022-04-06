@@ -9,9 +9,11 @@ const MailLogo = require("../assets/logos/MailLogo.png");
 const JSIcon = require("../assets/icons/JSIcon.png");
 const ReactIcon = require("../assets/logos/ReactLogo.png")
 const LUAIcon = require("../assets/icons/LUAIcon.png")
+const PictureIcon = require("../assets/icons/PictureIcon.png")
 
 const LeftBar = () => {
   const [showWebList, SetShowWebList] = useState(true);
+  const [showDescList, SetShowDescList] = useState(true);
   const [showProjectsList, SetShowProjectsList] = useState(true);
 
   const WebList = () => (
@@ -33,7 +35,7 @@ const LeftBar = () => {
             alt="React Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>iTRACK</p>
+          <p>iTRACK (WIP)</p>
         </div>
       </a>
       <a href="https://komsakorn.github.io/js-2048">
@@ -51,6 +53,51 @@ const LeftBar = () => {
           <img
             src={LUAIcon}
             alt="LUA Icon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>PAYDAY 2 Music Mod</p>
+        </div>
+      </a>
+    </div>
+  );
+
+  const DescList = () => (
+    <div>
+      <a href="https://imgur.com/a/4gqyWIG">
+        <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
+          <img
+            src={PictureIcon}
+            alt="PictureIcon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>Spotipie</p>
+        </div>
+      </a>
+      <a href="https://imgur.com/a/c5iz5S1">
+        <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
+          <img
+            src={PictureIcon}
+            alt="PictureIcon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>iTRACK (WIP)</p>
+        </div>
+      </a>
+      <a href="https://imgur.com/a/Bu2ZjZi">
+        <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] focus:bg-slate-300 ml-12 w-60">
+          <img
+            src={PictureIcon}
+            alt="PictureIcon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>2048 Game</p>
+        </div>
+      </a>
+      <a href="https://imgur.com/a/Dm8xsQ8">
+        <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
+          <img
+            src={PictureIcon}
+            alt="PictureIcon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
           <p>PAYDAY 2 Music Mod</p>
@@ -88,6 +135,23 @@ const LeftBar = () => {
               <p>Projects Webpage</p>
             </div>
             {showWebList ? <WebList /> : null}
+          </>
+        ) : null}
+         {showProjectsList ? (
+          <>
+            <div
+              className="flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] font-bold w-72"
+              onClick={() => SetShowDescList(!showDescList)}
+            >
+              {showDescList ? (
+                <ChevronDownIcon className="w-7 mr-1  ml-5" />
+              ) : (
+                <ChevronRightIcon className="w-7 mr-1  ml-5" />
+              )}
+
+              <p>Projects Screenshot</p>
+            </div>
+            {showDescList ? <DescList /> : null}
           </>
         ) : null}
         <div className="absolute inset-x-0 bottom-10 ">
