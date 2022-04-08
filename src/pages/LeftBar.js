@@ -10,10 +10,12 @@ const JSIcon = require("../assets/icons/JSIcon.png");
 const ReactIcon = require("../assets/logos/ReactLogo.png")
 const LUAIcon = require("../assets/icons/LUAIcon.png")
 const PictureIcon = require("../assets/icons/PictureIcon.png")
+const CodeIcon = require("../assets/icons/CodeIcon.png")
 
 const LeftBar = () => {
   const [showWebList, SetShowWebList] = useState(true);
   const [showDescList, SetShowDescList] = useState(true);
+  const [showCodeList, SetShowCodeList] = useState(true);
   const [showProjectsList, SetShowProjectsList] = useState(true);
 
   const WebList = () => (
@@ -105,6 +107,50 @@ const LeftBar = () => {
       </a>
     </div>
   );
+  const CodeList = () => (
+    <div>
+      <a href="https://github.com/Komsakorn/jsd-jamming-assessment">
+        <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
+          <img
+            src={CodeIcon}
+            alt="CodeIcon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>Spotipie</p>
+        </div>
+      </a>
+      <a href="https://github.com/Komsakorn/New-iTrack">
+        <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
+          <img
+            src={CodeIcon}
+            alt="PictureIcon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>iTRACK (WIP)</p>
+        </div>
+      </a>
+      <a href="https://github.com/Komsakorn/js-2048">
+        <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] focus:bg-slate-300 ml-12 w-60">
+          <img
+            src={CodeIcon}
+            alt="PictureIcon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>2048 Game</p>
+        </div>
+      </a>
+      <a href="https://modworkshop.net/mod/32068#files">
+        <div className="flex whitespace-wrap items-start hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
+          <img
+            src={CodeIcon}
+            alt="PictureIcon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>PAYDAY 2 Music Mod (Example : "Suspect")</p>
+        </div>
+      </a>
+    </div>
+  );
 
   return (
     <div className="text-[#a2aabc] text-lg mt-5 flex bg-[#262526] h-full">
@@ -152,6 +198,23 @@ const LeftBar = () => {
               <p>Projects Screenshot</p>
             </div>
             {showDescList ? <DescList /> : null}
+          </>
+          ) : null}
+         {showProjectsList ? (
+          <>
+            <div
+              className="flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] font-bold w-72"
+              onClick={() => SetShowCodeList(!showCodeList)}
+            >
+              {showCodeList ? (
+                <ChevronDownIcon className="w-7 mr-1  ml-5" />
+              ) : (
+                <ChevronRightIcon className="w-7 mr-1  ml-5" />
+              )}
+
+              <p>Projects Repository</p>
+            </div>
+            {showCodeList ? <CodeList /> : null}
           </>
         ) : null}
         <div className="absolute inset-x-0 bottom-10 ">

@@ -26,7 +26,7 @@ const Project = () => {
         <div className="flex flex-col">
             <code className="text-blue_vs mb-5 text-lg">• Spotipie</code>
             <code>
-            Spotipie is an application integrated with Spotify, which allows you to search for your favourite artist, songs or album and make your new music playlist in your Spotify account.
+            Spotipie is an application made by JavaScript and integrated with Spotify API, which allows you to search for your favourite artist, songs or album and make your new music playlist in your Spotify account.
             </code>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Project = () => {
         <div className="flex flex-col">
             <code className="text-blue_vs mb-5 text-lg">• iTRACK (Work In Progress)</code>
             <code>
-            iTRACK is a combination between exercise application and social media, with iTRACK will allow you to reach out to others that loved to exercise like you and want to communicate or hang out together,
+            iTRACK is a combination between exercise application and social media, Built with React,CSS and keep the data with MongoDB, with iTRACK will allow you to reach out to others that loved to exercise like you and want to communicate or hang out together,
             Our activities board will show you the activities around you that you might want to participate in and discover another exercise lover, Then after the activity, you might wanna read and share your experience on our blog
             so other users can read and share their thought. Maybe you will find a person that you want to be the better you.
             </code>

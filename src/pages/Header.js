@@ -12,7 +12,7 @@ function Header() {
         <code className="text-[#e6f1ff] text-7xl mt-5">Komsakorn Jiarawish</code>
         <div className="text-[#a2aabc] text-lg mt-5 mx-12 flex flex-col items-center text-justify">
         <code>
-        I'm a passionate software developer from Thailand, Currently lived in Bangkaen, Bangkok. 
+        I'm a software developer from Thailand, Currently lived in Bangkaen, Bangkok. 
         I love and like to discover all of the coding knowledge that I never knew before. 
         My goal is to become a senior developer that reliable and easy to reach for all of my new junior developers.
         </code>
