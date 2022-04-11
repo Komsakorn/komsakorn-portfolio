@@ -37,7 +37,7 @@ const LeftBar = () => {
             alt="React Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>iTRACK (WIP)</p>
+          <p>iTRACK (Prototype)</p>
         </div>
       </a>
       <a href="https://komsakorn.github.io/js-2048">
@@ -82,7 +82,7 @@ const LeftBar = () => {
             alt="PictureIcon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>iTRACK (WIP)</p>
+          <p>iTRACK (Prototype)</p>
         </div>
       </a>
       <a href="https://imgur.com/a/Bu2ZjZi">
@@ -126,7 +126,7 @@ const LeftBar = () => {
             alt="PictureIcon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>iTRACK (WIP)</p>
+          <p>iTRACK (Prototype)</p>
         </div>
       </a>
       <a href="https://github.com/Komsakorn/js-2048">
