@@ -22,11 +22,11 @@ function Header() {
             is to become a senior developer who will be reliable and supportive
             of my team. I would love to coach and mentor all of the junior
             developers working with me. I believe that I will be able to see the
-            core problem and find the best solution for it with a new feature or
-            an application such as a health emergency application that can give
-            you the best possible first aid advice for the patient at that
-            moment or a new feature of a bank application that can track your
-            queue so you don't have to be in the row all the time.
+            root of every problem and find the best solution for it with a new
+            feature or an application such as a health emergency application
+            that can give you the best possible first aid advice for the patient
+            at that moment or a new feature of a bank application that can track
+            your queue so you don't have to be in the row all the time.
           </code>
         </div>
       </div>
