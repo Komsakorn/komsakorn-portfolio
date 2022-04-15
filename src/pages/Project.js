@@ -36,7 +36,7 @@ const Project = () => {
       </div>
       <div className="text-[#a2aabc] mt-5 mb-16 mx-12 lg:mx-60 flex flex-row items-center text-justify">
         <div className="flex flex-col">
-            <code className="text-blue_vs mb-5 text-lg">• iTRACK (Work In Progress)</code>
+            <code className="text-blue_vs mb-5 text-lg">• iTRACK (Prototype)</code>
             <code>
             iTRACK is a combination between exercise application and social media, Built with React,CSS and keep the data with MongoDB, with iTRACK will allow you to reach out to others that loved to exercise like you and want to communicate or hang out together,
             Our activities board will show you the activities around you that you might want to participate in and discover another exercise lover, Then after the activity, you might wanna read and share your experience on our blog
