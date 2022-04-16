@@ -21,12 +21,16 @@ function Header() {
             learning new things about coding that I didn't know before. My goal
             is to become a senior developer who will be reliable and supportive
             of my team. I would love to coach and mentor all of the junior
-            developers working with me. I believe that I will be able to see the
-            root of every problem and find the best solution for it with a new
-            feature or an application such as a health emergency application
+            developers working with me.
+            <br />
+            <br />I believe in creating a new feature or developing an
+            application to solve issues. I will be able to see the core problem
+            and find the best solution for it, such as a health emergency app
             that can give you the best possible first aid advice for the patient
-            at that moment or a new feature of a bank application that can track
-            your queue so you don't have to be in the row all the time.
+            at that time, or a new feature of a bank app that can track your
+            queues and shorten the wait time. I will make sure that the
+            solutions work for the clients, as well as for the team and the
+            company's success.
           </code>
         </div>
       </div>
