@@ -7,10 +7,10 @@ const FacebookLogo = require("../assets/logos/FacebookLogo.png");
 const MailLogo = require("../assets/logos/MailLogo.png");
 
 const JSIcon = require("../assets/icons/JSIcon.png");
-const ReactIcon = require("../assets/logos/ReactLogo.png")
-const LUAIcon = require("../assets/icons/LUAIcon.png")
-const PictureIcon = require("../assets/icons/PictureIcon.png")
-const CodeIcon = require("../assets/icons/CodeIcon.png")
+const ReactIcon = require("../assets/logos/ReactLogo.png");
+const LUAIcon = require("../assets/icons/LUAIcon.png");
+const PictureIcon = require("../assets/icons/PictureIcon.png");
+const CodeIcon = require("../assets/icons/CodeIcon.png");
 
 const LeftBar = () => {
   const [showWebList, SetShowWebList] = useState(true);
@@ -30,7 +30,7 @@ const LeftBar = () => {
           <p>Spotipie</p>
         </div>
       </a>
-      <a href="https://github.com/Komsakorn/New-iTrack">
+      <a href="https://itrack-komsakorn.vercel.app/">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <img
             src={ReactIcon}
@@ -183,7 +183,7 @@ const LeftBar = () => {
             {showWebList ? <WebList /> : null}
           </>
         ) : null}
-         {showProjectsList ? (
+        {showProjectsList ? (
           <>
             <div
               className="flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] font-bold w-72"
@@ -199,8 +199,8 @@ const LeftBar = () => {
             </div>
             {showDescList ? <DescList /> : null}
           </>
-          ) : null}
-         {showProjectsList ? (
+        ) : null}
+        {showProjectsList ? (
           <>
             <div
               className="flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] font-bold w-72"
@@ -240,7 +240,10 @@ const LeftBar = () => {
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="mailto:komsakorn.j@hotmail.com" title="komsakorn.j@hotmail.com">
+            <a
+              href="mailto:komsakorn.j@hotmail.com"
+              title="komsakorn.j@hotmail.com"
+            >
               <img
                 src={MailLogo}
                 alt="Mail Logo"
