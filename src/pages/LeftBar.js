@@ -11,6 +11,7 @@ const ReactIcon = require("../assets/logos/ReactLogo.png");
 const LUAIcon = require("../assets/icons/LUAIcon.png");
 const PictureIcon = require("../assets/icons/PictureIcon.png");
 const CodeIcon = require("../assets/icons/CodeIcon.png");
+const UnityIcon = require("../assets/icons/UnityIcon.png");
 
 const LeftBar = () => {
   const [showWebList, SetShowWebList] = useState(true);
@@ -60,6 +61,16 @@ const LeftBar = () => {
           <p>PAYDAY 2 Music Mod</p>
         </div>
       </a>
+      <a href="https://github.com/Komsakorn/Basketball-game">
+        <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
+          <img
+            src={UnityIcon}
+            alt="Unity Icon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>Magic Basketball</p>
+        </div>
+      </a>
     </div>
   );
 
@@ -105,6 +116,16 @@ const LeftBar = () => {
           <p>PAYDAY 2 Music Mod</p>
         </div>
       </a>
+      <a href="https://imgur.com/a/16maxEo">
+        <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
+          <img
+            src={PictureIcon}
+            alt="PictureIcon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>Magic Basketball</p>
+        </div>
+      </a>
     </div>
   );
   const CodeList = () => (
@@ -123,7 +144,7 @@ const LeftBar = () => {
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <img
             src={CodeIcon}
-            alt="PictureIcon"
+            alt="CodeIcon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
           <p>iTRACK (Prototype)</p>
@@ -133,7 +154,7 @@ const LeftBar = () => {
         <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] focus:bg-slate-300 ml-12 w-60">
           <img
             src={CodeIcon}
-            alt="PictureIcon"
+            alt="CodeIcon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
           <p>2048 Game</p>
@@ -143,10 +164,20 @@ const LeftBar = () => {
         <div className="flex whitespace-wrap items-start hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
           <img
             src={CodeIcon}
-            alt="PictureIcon"
+            alt="CodeIcon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
           <p>PAYDAY 2 Music Mod (Example : "Suspect")</p>
+        </div>
+      </a>
+      <a href="https://github.com/Komsakorn/Basketball-game">
+        <div className="flex whitespace-wrap items-start hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
+          <img
+            src={CodeIcon}
+            alt="CodeIcon"
+            className="w-7 mr-1  ml-5 text-yellow_vs"
+          />
+          <p>Magic Basketball</p>
         </div>
       </a>
     </div>
